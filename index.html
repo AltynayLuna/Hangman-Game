@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman-Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+	<div class="container">
+	<header id="main-header">Hangman TWIN PEAKS style!</header>
+		<div class="gameArea">
+			<button id="startButton">Start</button>
+			<div id="playArea">
+				<div id="wordDisplay"></div>
+				<div>Letters Already Guessed: <span id="badArea"></span></div>
+				<div class="stats">
+					<h1>Wins: <span id="wins"></span></h1>
+					<h1>Losses: <span id="losses"></span></h1>
+				</div>
+		<br><br>
+			</div>
+	<h1 id="owls">The owls are not what they seem.</h1>
+	<div id="main">
+		<p>So you think you are an expert on Twin Peaks?</p> 
+		<p>Do you know who killed Laura Palmer? Or what Agent Copper's favorite beverage is? Or who the quote about owls belong to?</p>
+		<h1>Test your knowledge with this game!</h1>
+		<h2>Enter letters in the word box.</h2>
+	</div>
+	<div>
+		<h3>(Enjoy the soundtrack while playing the game)</h3>
+		<button onclick="playPause(this)">Pause ›</button>
+				<audio id="video1" width="420" height="50" autoplay loop>
+					<source src="assets/video/video1.ogg" type="video/ogg">
+				</audio>
+	</div>	
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</div>
+</body>
+</html>

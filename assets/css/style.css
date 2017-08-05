@@ -1,0 +1,90 @@
+body {
+	width: 100%;
+	font-family: Tahoma;
+	background-color: black;
+	color: white; 
+}
+
+.container {
+	background-image: url(../images/dancing_man.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	width: 980px;
+	min-height: 500px;
+}
+
+#main-header {
+	text-align: center;
+	font-size: 50px;
+	color: #7FFF00;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.gameArea {
+	width: 400px;
+	height: 450px;
+	margin-left: 200px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: white;
+	border: solid white 3px;
+	text-align: center;
+	padding: 10px;
+	line-height: 25px;
+}
+#startButton {
+	margin-top: 20px;
+	background-color: white;
+	width: 15%;
+	height: 10%;
+	font-size: 15px;
+}
+
+#playArea {
+	width: 100%;
+	display: none;
+	text-align: center;
+}
+
+#wordDisplay {
+	width: 80%;
+	min-height: 25px;
+	padding: 5px;
+	border: solid #ccc 1px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+#bad {
+	width: 80%;
+	min-height: 25px;
+	padding: 5px;
+	border: solid red 1px;
+	margin: 0 auto;
+}
+
+#wordDisplay {
+	color: green;
+}
+#owls {
+	text-align: center;
+	font-size: 20px;
+	color: #7FFF00; 
+	font-family: Tempus Sans ITC;
+	font-weight: bold; 
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#main {
+	font-size: 12px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+h3 {
+	font-size: 12px;
+}
